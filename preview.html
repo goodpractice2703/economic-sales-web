@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Economic Sales de México, SA de CV</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0b4edb;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header img {
+      max-width: 320px;
+      width: 100%;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      margin-bottom: 20px;
+      font-size: 1.05rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      margin: 8px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn-mail {
+      background: white;
+      color: #0b4edb;
+    }
+
+    .btn-wa {
+      background: #25D366;
+      color: white;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #0b4edb;
+    }
+
+    .section {
+      margin-bottom: 50px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .card ul {
+      padding-left: 18px;
+    }
+
+    .brands {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .brand {
+      background: #0b4edb;
+      color: white;
+      padding: 10px 14px;
+      border-radius: 20px;
+      font-size: 0.95rem;
+    }
+
+    .inventory-item {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      margin-bottom: 20px;
+    }
+
+    .inventory-item img {
+      width: 220px;
+      max-width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+      background: #eee;
+    }
+
+    .inventory-item p {
+      flex: 1;
+    }
+
+    .contact p {
+      margin-bottom: 8px;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 768px) {
+      .inventory-item {
+        flex-direction: column;
+      }
+
+      header h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Logo Economic Sales">
+    <h1>ECONOMIC SALES DE MÉXICO, SA DE CV</h1>
+    <p>Soluciones tecnológicas con atención personalizada</p>
+
+    <a href="mailto:ventas@economicsales.com?subject=Cotización" class="btn btn-mail">Cotizar por correo</a>
+    <a href="https://wa.me/525590363348" target="_blank" class="btn btn-wa">WhatsApp</a>
+  </header>
+
+  <div class="container">
+
+    <section class="section">
+      <h2>Sobre nosotros</h2>
+      <p>
+        Somos una empresa especializada en la venta de equipo de cómputo y soluciones tecnológicas, enfocada en brindar productos de calidad con entrega rápida, instalación, garantía y atención personalizada.
+      </p>
+      <br>
+      <p>
+        Contamos con experiencia atendiendo empresas en toda la República Mexicana, principalmente en la Ciudad de México y Estado de México, ofreciendo soluciones confiables y eficientes.
+      </p>
+      <br>
+      <p>
+        Nuestro objetivo es satisfacer las necesidades tecnológicas de nuestros clientes mediante un servicio integral que genere confianza y relaciones a largo plazo.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Productos y servicios</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Venta de equipo</h3>
+          <ul>
+            <li>Cómputo - PC all in one</li>
+            <li>Tablets</li>
+            <li>Monitores</li>
+            <li>Servidores</li>
+            <li>Componentes</li>
+            <li>No-Breaks</li>
+            <li>Impresoras</li>
+            <li>Laptops</li>
+            <li>CO</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Dispositivos</h3>
+          <ul>
+            <li>PC all in one</li>
+            <li>Tablets</li>
+            <li>Monitores</li>
+            <li>Servidores</li>
+            <li>Componentes</li>
+            <li>No-Breaks</li>
+            <li>Impresoras</li>
+            <li>Laptops</li>
+            <li>CO</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Venta de consumibles</h3>
+          <ul>
+            <li>Toners</li>
+            <li>Tintas</li>
+            <li>Cartuchos</li>
+            <li>Cintas</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Almacenamiento y accesorios</h3>
+          <ul>
+            <li>Memorias USB</li>
+            <li>Discos Duros</li>
+            <li>SSD</li>
+            <li>Adaptadores de video</li>
+            <li>Audio y video</li>
+            <li>Cables</li>
+            <li>Thunderbolt lightning</li>
+            <li>Mochilas</li>
+            <li>Docking Station</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Marcas</h2>
+      <div class="brands">
+        <span class="brand">APPLE INC</span>
+        <span class="brand">DELL TECHNOLOGIES</span>
+        <span class="brand">HP INC</span>
+        <span class="brand">SEIKO EPSON</span>
+        <span class="brand">ASUSTEK COMPUTER</span>
+        <span class="brand">SONY GROUP CORP</span>
+        <span class="brand">CANON INC</span>
+        <span class="brand">MICROSOFT CORP</span>
+        <span class="brand">LENOVO CORP</span>
+        <span class="brand">HISENSE GROUP</span>
+        <span class="brand">LOGITECH INT</span>
+        <span class="brand">TP-LINK TECH</span>
+        <span class="brand">ACER INC</span>
+        <span class="brand">BROTHER INDUSTRIES</span>
+        <span class="brand">SAMSUNG GROUP</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Inventario</h2>
+
+      <div class="inventory-item">
+        <img src="https://via.placeholder.com/220x160?text=TravelMate+P2" alt="Laptop Travelmate P2">
+        <p>VPN: NX.B64AL.005 Laptop Travelmate P2 Procesador Intel Core I5-1335U, 14”, WUXGA, IPS, Memoria Ram de 8GB, Almacenamiento 512GB, Fingerprint, Windows 11 Pro, Color Negro, 1 año de garantía.</p>
+      </div>
+
+      <div class="inventory-item">
+        <img src="https://via.placeholder.com/220x160?text=Acer+Aspire+Lite+16" alt="Laptop Acer Aspire Lite 16">
+        <p>VPN: NX.J2SAL.001 Laptop Acer Aspire Lite 16 Pulg FHD, Procesador Intel Core I5 1334u, Memoria Ram 16 GB DDR, Almacenamiento 512 GB SDD, Windows 11 Home SL, Color Plata, 1 Año De Garantía directa con Acer México.</p>
+      </div>
+
+      <div class="inventory-item">
+        <img src="https://via.placeholder.com/220x160?text=Dell+15+DC15250" alt="Laptop Dell 15 DC15250">
+        <p>VPN: R5KW5 Laptop Dell 15 DC15250, Procesador Intel Core i5-1334U, Memoria RAM 16GB, Almacenamiento 512GB SSD, 15.6&quot; FHD, Windows 11 Pro, Color Plata, 1 año de garantía con DELL.</p>
+      </div>
+
+      <div class="inventory-item">
+        <img src="https://via.placeholder.com/220x160?text=ASUS+ExpertBook+P1" alt="Notebook ASUS ExpertBook P1">
+        <p>VPN: 90NX0871-M00VR0 Notebook ASUS ExpertBook P1 14” (P1403CVA) FHD (1920 x 1080) Procesador Intel Core i5-13420H- Windows 11Pro, 8GB de Memoria Ram, Almacenamiento 512GB SSD, Gris, Color Plata, 1 año de garantia con ASUS, Wi-Fi 6 (Doble banda).</p>
+      </div>
+
+      <div class="inventory-item">
+        <img src="https://via.placeholder.com/220x160?text=Lenovo+IdeaPad+Slim+3" alt="Lenovo IdeaPad Slim 3 83K1004ALM">
+        <p>VPN: 83K1004ALM Lenovo IdeaPad Slim 3 15IRH10 (15.3&quot;&quot;) - WUXGA - Procesador Intel Core i5 13a Gen i5-13420H - Memoria Ram 8GB - Almacenamiento 512GB SSD - Español Teclado - Color Verde Claro Metalizado - Intel Chip - 1920 x 1200 - Windows 11 Home Single Language - Intel UHD Graphics - Tecnología conmutación en el mismo plano (IPS).</p>
+      </div>
+
+      <div class="inventory-item">
+        <img src="https://via.placeholder.com/220x160?text=Lenovo+IdeaPad+Slim+3+Touch" alt="Lenovo IdeaPad Slim 3 táctil">
+        <p>VPN: 83K100BULM Lenovo IdeaPad Slim 3 15IRH10 (15.3&quot;&quot;) Pantalla Táctil - WUXGA - 60Hz - Procesador Intel Core i5 13a Gen i5-13420H - Memoria Ram 24GB - Almacenamiento 512GB SSD - Español Teclado - Color Luna Gray - Intel Chip - 1920 x 1200 - Windows 11 Home Single Language - Intel - Tecnología conmutación en el mismo plano (In-plane Switching, IPS).</p>
+      </div>
+    </section>
+
+    <section class="section contact">
+      <h2>Contacto</h2>
+      <p>Escríbenos tus cotizaciones, dudas, preguntas o sugerencias y con gusto te atenderemos a la brevedad.</p>
+      <br>
+      <p><strong>Línea 1:</strong> (55) 9036-3348</p>
+      <p><strong>Línea 2:</strong> (55) 5293-9827</p>
+      <p><strong>Correo:</strong> ventas@economicsales.com</p>
+    </section>
+
+  </div>
+
+  <footer>
+    © 2026 Economic Sales de México, SA de CV
+  </footer>
+
+</body>
+</html>
